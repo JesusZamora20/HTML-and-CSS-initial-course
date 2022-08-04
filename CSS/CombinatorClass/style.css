@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main section {
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+}
+
+/* Combinador hermano adyacente */
+.Adjacent-siblings h2 + p {
+    color: red;
+}
+
+/* general sibling*/
+.general-siblings h2 ~ p {
+    color: green;
+}
+
+/*Son combinator*/
+.Son div > p {
+    color: blue;
+} 
+
+/*Descendant combinator*/
+.Descendant div p{
+    color: orange;
+}
+
+
