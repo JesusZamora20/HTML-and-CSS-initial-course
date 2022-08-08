@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+main {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    border: 2px aliceblue solid;
+    border-radius: 1rem;
+    width: 100rem;
+    min-height: 70rem;
+    margin: 0 auto;
+    position: relative;
+    top: 8rem;
+    background-color: gray;
+}
+
+.card-content {
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+}
+
+#title{
+    color: aliceblue;
+    font-size: 5rem;
+    text-align: center;
+    background-color: #62a4ab;
+    border: 0.2rem aliceblue solid;
+    
+    width: 40rem;
+    height: 7rem;
+    border-radius: 1rem;
+
+    position: relative;
+    bottom: 42.5rem;
+    left: 30rem;
+}
+
+#text {
+    color: aliceblue;
+    position: relative;
+    top: 5rem;
+    left: 10rem;
+
+    width: 80rem;
+
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+#image {
+    position: relative;
+    top: 5rem;
+}
+
+
