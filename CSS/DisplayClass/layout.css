@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+header{
+    font-size: 2rem;
+    background-color: blue;
+    height: 10vh;
+}
+
+main{
+    font-size: 2rem;
+    height: 80vh;
+}
+
+footer{
+    font-size: 2rem;
+    height: 80vh;
+    background-color: orange;
+}
+
+.nav{
+    list-style: none;
+    text-align: right;
+    position: relative;
+    right: 2rem;
+    bottom: 1rem;   
+}
+
+
+.nav li{
+    display: inline-block;
+    background-color: yellow;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 0.2rem;
+    margin-left: 3rem;
+}
+
+.logo{
+    position: relative;
+    top: 1.3rem;
+    left: 2rem;
+    text-align: left;
+    display: inline-block;
+    
+    background-color: greenyellow;
+    padding-left: 2 rem;
+    padding-right: 2rem;
+    border-radius: 0.2rem;
+}
+
+aside, .main-content{
+    height: 80vh;
+    display: inline-block;
+}
+
+aside {
+    width: 20vw;
+}
+
+.sidebar-list{
+    list-style: none;
+}
+
+aside li{
+    height: 15vh;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: aquamarine;
+}
+
+.main-content{
+    position: relative;
+    left: 20vw;
+    bottom: 80vh;
+    width: 80vw;
+    background-color: pink;
+    padding: 1rem
+    
+}
