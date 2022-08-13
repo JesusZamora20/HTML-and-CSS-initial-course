@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    min-height: 10vh;
+    background-color: blueviolet;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav{
+    min-width: 50vw;
+    max-width: 80vw;
+    list-style: none;
+    background-color: red;
+
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li{
+    background-color: burlywood;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+
+    width: 15rem;
+    
+}
+
+.logo{
+    min-width: 10vw;
+    background-color: burlywood;
+
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+
+main {
+    height: 80vh;
+    background-color: yellow;
+
+    display: flex;
+}
+
+aside {
+    width: 30vw;
+    background-color: antiquewhite;
+}
+
+.sidebar-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sidebar-list li{
+    height: 6rem;
+    list-style: none;
+    background-color: mediumvioletred;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.main-content{
+    width: 70vw;
+    background-color: peachpuff; 
+}
+
+.main-content p{
+    background-color: midnightblue;
+    color: aliceblue;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;  
+}
+
+footer {
+    height: 10vh;
+    background-color: aqua;
+}
+
+
+
+
